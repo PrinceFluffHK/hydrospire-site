@@ -54,3 +54,15 @@
     height: auto;
     width: 100vw;
 }
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.team-thumbnail {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}

@@ -3,15 +3,22 @@ import TeamMember from "../models/TeamMember.js";
 import dougPicture from "../images/1516275782592.jpeg"
 
 const Team = (props) => {
-    const dougLawrence = new TeamMember("Douglas Lawrence", "CEO", dougPicture, "https://www.linkedin.com/in/douglaswlawrence/")
+    const dougLawrence = new TeamMember("Doug Lawrence", "CEO", dougPicture, "https://www.linkedin.com/in/douglaswlawrence/")
 
     return (
-        <div>
+        <div style={{margin: "0rem 4rem 0rem 4rem"}}>
             <h1>
                 The Hydrospire Team
             </h1>
-            <div className="grid-x grid-margin-x">
+            <div className="team-grid">
                 {dougLawrence.display()}
+                {dougLawrence.display()}
+                {dougLawrence.display()}
+            </div>
+            <div className="team-grid">
+                {dougLawrence.display()}
+                {dougLawrence.display()}
+                {/* {dougLawrence.display()} */}
             </div>
         </div>
     )

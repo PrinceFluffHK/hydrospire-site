@@ -11,8 +11,8 @@ class TeamMember {
     display() {
         return (
             <div>
-                <img className="" src={this.image}/>
-                <h4>{this.name}, {this.position}</h4>
+                <img className="team-thumbnail" src={this.image}/>
+                <h2>{this.name}, {this.position}</h2>
             </div>
         )
     }
