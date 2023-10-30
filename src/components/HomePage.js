@@ -1,9 +1,10 @@
 import React from "react";
+import logo from "../images/Hydrospire logo large.jpg"
 
 const HomePage = (props) => {
     return (
         <div>
-            Hello from HomePage
+            <img className="home-page-logo" src={logo}/>
         </div>
     )
 }

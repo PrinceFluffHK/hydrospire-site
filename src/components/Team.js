@@ -7,7 +7,9 @@ const Team = (props) => {
 
     return (
         <div>
-            Hello from Team
+            <h1>
+                The Hydrospire Team
+            </h1>
             <div className="grid-x grid-margin-x">
                 {dougLawrence.display()}
             </div>
