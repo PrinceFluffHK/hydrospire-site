@@ -42,6 +42,8 @@ const Founders = (props) => {
         johnPicture,
         "Associate Professor at Harvard Medical School and Staff Physician in the Cardiac Intensive Care Unit at Boston Children’s Hospital."
     )
+// const Team = (props) => {
+//     const dougLawrence = new TeamMember("Doug Lawrence", "CEO", dougPicture, "https://www.linkedin.com/in/douglaswlawrence/")
 
     return (
         <div>
@@ -63,6 +65,11 @@ const Founders = (props) => {
                     </div>
                 </div>
 
+            </div>
+            <div className="team-grid">
+                {dougLawrence.display()}
+                {dougLawrence.display()}
+                {/* {dougLawrence.display()} */}
             </div>
         </div>
     );

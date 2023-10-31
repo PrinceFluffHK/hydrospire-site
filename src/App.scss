@@ -1,12 +1,11 @@
-@import "foundation";
+// @import "foundation";
 
-@import "~foundation-sites/scss/foundation";
-@import "./settings";
+// @import "~foundation-sites/scss/foundation";
+// @import "./settings";
 // @include foundation-everything;
 
 .App {
-    // text-align: center;
-    background-color: #d8eefe;
+    text-align: center;
 }
 
 .App-logo {
@@ -45,21 +44,14 @@
 }
 
 .top-bar {
-    background-color: white;
+    background-color: #282c34;
     height: 4rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    &-right {
-        color: black;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
     &-tab {
         font-weight: normal;
-        color: black;
-        margin-right: 2rem;
+        color: white;
+        margin-left: 2rem;
         text-decoration: none;
     }
 }

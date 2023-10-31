@@ -1,19 +1,19 @@
 import React from "react";
 import logo from "../logo.svg";
-import "../assets/scss/App.scss";
+import "../App.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./HomePage";
-import Founders from "./Founders";
+import Team from "./Team";
 import TopBar from "./TopBar";
 
 function App() {
     return (
-        <div className="App">
+        <div className="">
             <BrowserRouter>
 			<TopBar/>
                 <Routes>
                     <Route exact path="/" Component={HomePage} />
-                    <Route exact path="/founders" Component={Founders} />
+                    <Route exact path="/team" Component={Team} />
                 </Routes>
             </BrowserRouter>
         </div>
