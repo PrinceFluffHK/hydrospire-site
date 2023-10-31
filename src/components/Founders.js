@@ -2,7 +2,7 @@ import React from "react";
 import TeamMember from "../models/TeamMember.js";
 import dougPicture from "../images/1516275782592.jpeg"
 
-const Team = (props) => {
+const Founders = (props) => {
     const dougLawrence = new TeamMember("Doug Lawrence", "CEO", dougPicture, "https://www.linkedin.com/in/douglaswlawrence/")
 
     return (
@@ -15,13 +15,8 @@ const Team = (props) => {
                 {dougLawrence.display()}
                 {dougLawrence.display()}
             </div>
-            <div className="team-grid">
-                {dougLawrence.display()}
-                {dougLawrence.display()}
-                {/* {dougLawrence.display()} */}
-            </div>
         </div>
     )
 }
 
-export default Team
+export default Founders

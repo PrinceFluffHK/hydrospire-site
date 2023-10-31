@@ -1,5 +1,6 @@
 .App {
-    text-align: center;
+    // text-align: center;
+    background-color: #d8eefe;
 }
 
 .App-logo {
@@ -38,16 +39,27 @@
 }
 
 .top-bar {
-    background-color: #282c34;
+    background-color: white;
     height: 4rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    &-right {
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     &-tab {
         font-weight: normal;
-        color: white;
-        margin-left: 2rem;
+        color: black;
+        margin-right: 2rem;
         text-decoration: none;
     }
+}
+
+.content-body {
+    // padding: 2rem;
 }
 
 .home-page-logo{
