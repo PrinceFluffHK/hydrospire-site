@@ -1,3 +1,9 @@
+@import "foundation";
+
+@import "~foundation-sites/scss/foundation";
+@import "./settings";
+// @include foundation-everything;
+
 .App {
     // text-align: center;
     background-color: #d8eefe;
@@ -58,10 +64,6 @@
     }
 }
 
-.content-body {
-    // padding: 2rem;
-}
-
 .home-page-logo{
     height: auto;
     width: 100vw;
@@ -69,12 +71,16 @@
 
 .team-grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     margin-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .team-thumbnail {
     object-fit: cover;
-    height: 300px;
-    width: 300px;
+    outline-style: solid;
+    // outline-color: red;
+    outline-width: 2px;
+    height: 270px;
+    width: 270px;
 }

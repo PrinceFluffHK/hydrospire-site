@@ -1,5 +1,6 @@
+import React from "react";
 import logo from "../logo.svg";
-import "../App.scss";
+import "../assets/scss/App.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./HomePage";
 import Founders from "./Founders";
